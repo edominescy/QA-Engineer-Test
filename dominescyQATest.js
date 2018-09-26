@@ -34,7 +34,7 @@ function qaTest(driver){
       driver.findElement(By.id('inputName')).sendkeys('Erin');
       driver.findElement(By.id('inputEmail1')).sendkeys('erindominescy@gmail.com');
       driver.findElement(By.id('inputJobTitle')).sendkeys('Job');
-      driver.findElement(By.xpath('//input[@placeholder="Company"])).sendkeys('Influence Health');
+      driver.findElement(By.xpath('//input[@placeholder="Company"]')).sendkeys('Influence Health');
       var dropdown = new Select(driver.findElement(By.id('inputIndustry')));
       dropdown.selectByVisibleText('Computer Software');
 }
