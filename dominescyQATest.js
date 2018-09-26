@@ -38,3 +38,5 @@ function qaTest(driver){
       var dropdown = new Select(driver.findElement(By.id('inputIndustry')));
       dropdown.selectByVisibleText('Computer Software');
 }
+
+driver.close();
